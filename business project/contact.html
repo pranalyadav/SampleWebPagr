@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url("bg.jpg");
+			background-attachment: fixed;
+		}
+		.brand{
+			color:white;
+			font-size: 4em;
+			text-align: center;
+		}
+		.address{
+			text-align: center;
+			color: white;
+			font-size: 2em;
+		}
+		.grid-container{
+			display: grid;
+		
+			padding: 2px;
+			
+			grid-gap: 10px;
+		}
+		.grid-container>div{
+			opacity: 0.9;
+			background-color: white;
+			padding:5px;
+			text-align: center;
+		}
+		.navbar>a{
+			color: grey;
+			display: inline-block;
+			
+			padding: 25px;
+			text-decoration: none;
+			font-size: 1.4em;
+		}
+		.navbar>a:hover{
+			color: black;
+		}
+		#hr1{
+			width: 400px;
+			margin-top: 50px;
+		}
+		#hr2{
+			width: 400px;
+		}
+		#p1{
+			font-size: 1.3em;
+		}
+		iframe{
+			margin:20px;
+		}
+		#p2,#p3,#p4{
+			font-size: 1.5em;
+			text-align: left;
+
+		}
+		form>div{
+			display: inline-block;
+			padding-left: 2em;
+			padding-right: 2em;
+			font-size: 1.5em;
+			text-align: left;
+
+		}
+		
+		input{
+			width: 400px;
+			height: 30px;
+			border:1px solid  #d9d9d9;
+			border-radius: 3px;
+			background-color: #ffffff;
+		}
+		textarea{
+			width: 1400px;
+			font-size: 1em;
+			padding: 0.5em;
+			border:1px solid  #d9d9d9;
+			border-radius: 3px;
+		}
+		button{
+			margin-top: 10px;
+			margin-left:-700px;
+			padding: 10px;
+			border-radius: 3px;
+			border:1px solid #d9d9d9;
+			font-size: 15px;
+
+		}
+		button:hover{
+			background-color: #e6e6e6;
+		}
+		footer{
+			margin-top: 20px;
+
+			background-color: white;
+			text-align: center;
+			padding: 50px;
+			font-size: 1.5em;
+		}
+	</style>
+</head>
+<body>
+	<div class ="brand">
+		Business Casual
+	</div>
+	<div class ="address">
+		3481 MELROSE PLACE | BEVERLY HILLS, CA 90210 | 123.456.7890
+	</div>
+	<div class="grid-container">
+	<div class="navbar">
+		<a href="gridproject.html">HOME</a>
+		<a href="about.html">ABOUT</a>
+		<a href="blog.html">BLOG</a>
+		<a href="contact.html">CONTACT</a>
+	</div>
+	<div class="map">
+		<hr id="hr1">
+		<p id="p1">CONTACT <strong>BUSINESS CASUAL</strong></p>
+		<hr id="hr2">
+		  <iframe src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed" height="400px;" width="50%" align="left"></iframe>
+          <p id="p2">Phone:<b>809.484.4416</b></p>
+		<p id="p3">Email:<b>abc@gmail.com</b></p>
+		<p id="p4">Address:<b>behind 132 kvgss
+		baldev nagar barmer(raj.)</b></p>     
+		
+	</div>
+	<div class = "contact">
+		<hr id = "hr1">
+		<p id="p1">CONTACT <strong>FORM</strong></p>
+		<hr id="hr2">
+		<p style="text-align: left; font-size: 1.5em; padding-left: 40px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, vitae, distinctio, possimus repudiandae cupiditate ipsum excepturi dicta neque eaque voluptates tempora veniam esse earum sapiente optio deleniti consequuntur eos voluptatem.</p>
+		<form>
+			<div>
+				<label><b>Name</b></label><br>
+				<input type="text" name="fname">
+			</div>
+			<div>
+				<label><b>Email Address</b></label><br>
+				<input type="text" name="Email">
+			</div>
+			<div>
+				<label><b>Phone number</b></label><br>
+				<input type="text" name="pnumber">
+			</div>
+			<div>
+				<label><b>Message</b></label><br>
+				<textarea rows="6"></textarea>
+			</div>
+			<div>
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+	</div>
+	</div>
+	<footer>
+		
+		<p>Copyright &copy Your Website 2020</p>
+	
+	</footer>
+</body>
+</html>
